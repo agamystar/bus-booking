@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "691604d9-cff4-46d0-be54-c254f7807e62",
+		"name": "bus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30096836"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/book",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.5"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Referer",
+						"value": "https://alpha.skopenow.com/"
+					},
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://alpha.skopenow.com"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ga_8JFFVCDYCC=GS1.1.1696325894.8.1.1696328059.51.0.0; _ga=GA1.2.676391948.1695810129; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw; intercom-session-qgucmqly=dyt3VGUzdzVTMjlUcjVEeitrS0FXUUx5UlhzOFVObjV0WStrVXNSVUJ0b0R4aXF0S0hJeERBdXNBRE5ncGFPUy0tVUI5WmtqYzRHMi9CVW9QSVp2OVEzUT09--32b62d35ea6d7eb55ad4f10326e46fafda22078a; intercom-device-id-qgucmqly=160ad4c9-385f-4ab7-9672-16af1d4fe7c4; _ga_322136515=GS1.1.1695892251.1.0.1695892253.0.0.0; _gcl_au=1.1.716978075.1695892254; __hstc=210636362.f3eadb8b4534b661d2d44b9744350bdb.1695892266308.1695892266308.1695892266308.1; hubspotutk=f3eadb8b4534b661d2d44b9744350bdb; _fbp=fb.1.1695892266975.1899953177; mp_fcaf2542cdbab7b9cb4968a3e5bc9ad7_mixpanel=%7B%22distinct_id%22%3A%2015199%2C%22%24device_id%22%3A%20%2218aefabc183225-0a9fb2b645d99d-41262c3d-1ea000-18aefabc184991%22%2C%22%24user_id%22%3A%2015199%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _gid=GA1.2.18661342.1696327892; frontend_session=jYRgHC8pA7f23tlIFtxQPApd63P4mifK7PTxTidZ"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trip_id\":1,\n    \"from_stop_id\":1,\n    \"to_stop_id\":2\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/book",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/show-available-trips",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.5"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Referer",
+						"value": "https://alpha.skopenow.com/"
+					},
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://alpha.skopenow.com"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ga_8JFFVCDYCC=GS1.1.1696325894.8.1.1696328059.51.0.0; _ga=GA1.2.676391948.1695810129; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw; intercom-session-qgucmqly=dyt3VGUzdzVTMjlUcjVEeitrS0FXUUx5UlhzOFVObjV0WStrVXNSVUJ0b0R4aXF0S0hJeERBdXNBRE5ncGFPUy0tVUI5WmtqYzRHMi9CVW9QSVp2OVEzUT09--32b62d35ea6d7eb55ad4f10326e46fafda22078a; intercom-device-id-qgucmqly=160ad4c9-385f-4ab7-9672-16af1d4fe7c4; _ga_322136515=GS1.1.1695892251.1.0.1695892253.0.0.0; _gcl_au=1.1.716978075.1695892254; __hstc=210636362.f3eadb8b4534b661d2d44b9744350bdb.1695892266308.1695892266308.1695892266308.1; hubspotutk=f3eadb8b4534b661d2d44b9744350bdb; _fbp=fb.1.1695892266975.1899953177; mp_fcaf2542cdbab7b9cb4968a3e5bc9ad7_mixpanel=%7B%22distinct_id%22%3A%2015199%2C%22%24device_id%22%3A%20%2218aefabc183225-0a9fb2b645d99d-41262c3d-1ea000-18aefabc184991%22%2C%22%24user_id%22%3A%2015199%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _gid=GA1.2.18661342.1696327892; frontend_session=jYRgHC8pA7f23tlIFtxQPApd63P4mifK7PTxTidZ"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"at_day\":\"2023-10-27\",\n    \"from_stop_id\":4,\n    \"to_stop_id\":5\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/show-available-trips",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"show-available-trips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/show-available-seats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.5"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Referer",
+						"value": "https://alpha.skopenow.com/"
+					},
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://alpha.skopenow.com"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ga_8JFFVCDYCC=GS1.1.1696325894.8.1.1696328059.51.0.0; _ga=GA1.2.676391948.1695810129; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTYyMzgxNjAsInN1YiI6ImdjbERhSmtNMXVNNHh2WktLSjc3UmxjU2JUcjBzZUNSSEJkSlNiWGVnWDNaVWktUk9BU3pLZTlwaHM3NXdiLWgiLCJ0b2tlbl9pbnRlZ3JhdGUiOiJaODQzaHNSTVo5OC1NWU9meE9WeXRTY0ZiU293ZVdaRGNrMXU3TXZUd2g1ZEJVVXUta3d0VzZicl81NHVMcHBWMi1CQWVmNDc5VlBIa2Z4NTlzcUNCWm1TemMwT1RDQmgxRDZ5ZzlXUVlUUSIsIm5hbWUiOiJ6TW55VHZKaFVHYXNPVmhlNElfNzNqTDg4VU16eE1wbmNOOFgzUDlCdUxYSGtQRE91WHNuVVV5X1QyUzNzQlI4T2szTUo4aldaVGJGem9xNG9Ld3lZZyIsInVzZXJuYW1lIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJyb2xlX2lkIjoiQ2FhY3YzTWtnTjd4Y0cwVFZwY092WWJyV0s2ZHRUNkdVNXFTQUl0NElhcVdkZzNWQmxwSEgtS1VHZUJnaVg3MSIsImVtYWlsIjoiSkttRTN1QS02T3VUYXMxTjMwV3Z3VFM3N2c0RTV4T2NfT3d1TF96VXllZTZSZnpKMkdrb01NdVlxVFh0SFNLakFjQ3RkLWcxdDR4SWhrMFU4VFBnSnciLCJ2YWxpZGF0ZSI6ImdnemUwbWZVZTlJTWMxUEFBeHhRWF9vcW4zd0x4T3pyclFUMWwyUnNwWHZkeGh5Y09ySE83WUVUZjlBTmh4VVgiLCJleHAiOjE2OTg4MzAxNjB9.x_1LoA-bWdxn0uAaR3WOEMimL5VHVQ-LagP6-I6SoOw; intercom-session-qgucmqly=dyt3VGUzdzVTMjlUcjVEeitrS0FXUUx5UlhzOFVObjV0WStrVXNSVUJ0b0R4aXF0S0hJeERBdXNBRE5ncGFPUy0tVUI5WmtqYzRHMi9CVW9QSVp2OVEzUT09--32b62d35ea6d7eb55ad4f10326e46fafda22078a; intercom-device-id-qgucmqly=160ad4c9-385f-4ab7-9672-16af1d4fe7c4; _ga_322136515=GS1.1.1695892251.1.0.1695892253.0.0.0; _gcl_au=1.1.716978075.1695892254; __hstc=210636362.f3eadb8b4534b661d2d44b9744350bdb.1695892266308.1695892266308.1695892266308.1; hubspotutk=f3eadb8b4534b661d2d44b9744350bdb; _fbp=fb.1.1695892266975.1899953177; mp_fcaf2542cdbab7b9cb4968a3e5bc9ad7_mixpanel=%7B%22distinct_id%22%3A%2015199%2C%22%24device_id%22%3A%20%2218aefabc183225-0a9fb2b645d99d-41262c3d-1ea000-18aefabc184991%22%2C%22%24user_id%22%3A%2015199%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _gid=GA1.2.18661342.1696327892; frontend_session=jYRgHC8pA7f23tlIFtxQPApd63P4mifK7PTxTidZ"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"trip_id\":\"1\",\n    \"at_day\":\"2023-10-27\",\n    \"from_stop_id\":4,\n    \"to_stop_id\":5\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/show-available-seats",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"show-available-seats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
